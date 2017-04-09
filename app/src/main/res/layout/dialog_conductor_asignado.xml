@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/conductor_title"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:drawableEnd="@drawable/conductor_designado_40"
+        android:drawableRight="@drawable/conductor_designado_40"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/conductor_text"
+        android:padding="8dp"
+        android:gravity="center"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/homero_contento"
+        android:layout_gravity="center"
+        android:contentDescription="@string/content_desc"/>
+
+    <ImageView
+        android:id="@+id/ok"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:src="@drawable/like"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/content_desc"/>
+
+</LinearLayout>

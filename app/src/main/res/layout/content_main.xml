@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/nav_header_vertical_spacing"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.test.ionnt.patagonia.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_refugio"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        app:civ_border_width="1.5dp"
+        app:civ_border_color="@color/colorPrimary"
+        android:src="@drawable/refugio_palermo" />
+
+    <TextView
+        android:id="@+id/refugio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Estas en:"
+        android:layout_below="@+id/image_refugio"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/refugio_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:text="Refugio Patagonia Palermo"
+        android:textStyle="bold"
+        android:layout_below="@+id/refugio"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/refugio_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Paraguay 4979, Distrito Arcos Premium Outlet, 1425 Buenos Aires, Argentina"
+        android:layout_below="@+id/refugio_name"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/separator_1"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/refugio_address"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_500"/>
+
+    <Button
+        android:id="@+id/pedir_patagonia"
+        android:text="Quiero una patagonia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@drawable/main_button_bg"
+        android:layout_below="@+id/separator_1"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/jugar_ganar"
+        android:text="jugá y ganá"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@drawable/main_button_bg"
+        android:layout_below="@+id/pedir_patagonia"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/conductor_designado"
+        android:text="Soy conductor designado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@drawable/conductor_button_bg"
+        android:layout_below="@+id/jugar_ganar"
+        android:layout_marginTop="8dp"/>
+</RelativeLayout>
