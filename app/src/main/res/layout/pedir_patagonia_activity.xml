@@ -241,7 +241,7 @@
                     android:src="@drawable/galon" />
 
                 <ImageView
-                    android:id="@+id/pint"
+                    android:id="@+id/pint3"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:src="@drawable/pinta"
@@ -418,6 +418,45 @@
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
+
+    <Button
+        android:id="@+id/aceptar_pedido"
+        android:text="Hacer Pedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@drawable/aceptar_pedido_button_bg"
+        android:layout_below="@+id/beer5"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:id="@+id/separator_1"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/aceptar_pedido"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_500"/>
+
+    <Button
+        android:id="@+id/nosequepedir"
+        android:text="No se que pedir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@drawable/other_acc_button_bg"
+        android:layout_below="@+id/aceptar_pedido"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/conductor_designado"
+        android:text="Soy conductor designado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/conductor_button_bg"
+        android:layout_below="@+id/nosequepedir"
+        android:layout_marginTop="8dp"/>
 
 </RelativeLayout>
 </ScrollView>

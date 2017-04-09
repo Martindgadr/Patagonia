@@ -19,17 +19,69 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".FacebookPopupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyDialog" />
+
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
-            android:name=".conductor_activity"
+            android:name=".ConductorActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.MyDialog" />
 
         <activity
             android:name=".PedirPatagoniaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".TriviaPatagoniaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".CorrectAnswerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyDialog" />
+
+        <activity
+            android:name=".ErrorAnswerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyDialog" />
+
+        <activity
+            android:name=".AdviceBeer1Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".AdviceBeer2Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".AdviceBeer3Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".AdviceBeer4Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".RecomendationPopup"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyDialog" />
+
+        <activity
+            android:name=".ComunidadActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
     </application>

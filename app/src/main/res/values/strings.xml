@@ -10,4 +10,17 @@
     <string name="finish_intro_button_text">Finish</string>
     <string name="conductor_title">Conductor Asignado?</string>
     <string name="conductor_text">No te preocupes, hoy no vas a poder tomar cerveza, pero te invitamos las papas fritas y la gaseosa!!!</string>
+    <string name="face_login">Facebook Login</string>
+    <string name="facebook_name">Conectarse a Lucia Kranck</string>
+    <string name="facebook_text">Aceptando la siguiente solicitud, vas a conectar y dar acceso a tus datos a la aplicación Conecta Patagonia.</string>
+    <string name="cancel">Cancelar</string>
+    <string name="accept">Aceptar</string>
+    <string name="correct">Correcto</string>
+    <string name="ok">OK</string>
+    <string name="respuesta">Respuesta</string>
+    <string name="respuesta_text">Acertaste esta respuesta, segui aprendiendo sobre la cerveza y acumula puntos para premios.</string>
+    <string name="error">Error</string>
+    <string name="respuesta_text_error">Upsss!!! Esta vez no acertaste, no te preocupes, podes aprender mas en la sala de conocimiento.</string>
+    <string name="title_recom">Te recomendamos</string>
+    <string name="texto_recom">Cerveza Pale Ale, con perfil más lupulado. Con una combinación de maltas especiales y  una fermentación a altas temperaturas, que da lugar a una cerveza de color dorado bronce brillante de leve amargor y cuerpo medio.</string>
 </resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_recom"
+        android:textColor="@color/white"
+        android:background="@color/alpha_grey"
+        android:drawableStart="@drawable/beer_chop"
+        android:drawableLeft="@drawable/beer_chop"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/image_refugio"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:src="@drawable/cervezaporron" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="India Pale Ale"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_recom"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amargo (IBU) = 19"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alcohol (ABV) = 5%"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/okBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/other_acc_button_bg"
+        android:textColor="@color/white"
+        android:text="Gracias :)" />
+
+</LinearLayout>

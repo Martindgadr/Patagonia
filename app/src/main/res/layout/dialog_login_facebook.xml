@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/face_login"
+        android:textColor="@color/white"
+        android:background="@color/facebook_color"
+        android:drawableStart="@drawable/fb_logo"
+        android:drawableLeft="@drawable/conductor_designado_40"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_refugio"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        app:civ_border_width="1.5dp"
+        app:civ_border_color="@color/colorPrimary"
+        android:src="@drawable/fotoperfil" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/facebook_name"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/facebook_text"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:layout_weight="1.5"/>
+
+        <Button
+            android:id="@+id/acceptBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/accept"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/facebook_color"
+            android:layout_weight="1.5"/>
+    </LinearLayout>
+</LinearLayout>

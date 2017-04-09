@@ -8,4 +8,11 @@
     <color name="black">#000000</color>
     <color name="grey_500">#9E9E9E</color>
     <color name="white">#FFFFFF</color>
+
+    <!--topic colors-->
+    <color name="facebook_color">#3b5998</color>
+    <color name="alpha_green">#804CAF50</color>
+    <color name="alpha_red">#80FF3B00</color>
+    <color name="red">#FF3B00</color>
+    <color name="alpha_grey">#809E9E9E</color>
 </resources>

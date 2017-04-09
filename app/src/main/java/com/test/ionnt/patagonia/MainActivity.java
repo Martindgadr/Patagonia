@@ -21,9 +21,9 @@ import butterknife.ButterKnife;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    @BindView(R.id.conductor_designado) Button mConductorDesignado;
     @BindView(R.id.pedir_patagonia) Button mPedirPatagonia;
     @BindView(R.id.jugar_ganar) Button mJugarGanar;
+    @BindView(R.id.comunidadBtn) Button mComunidad;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,14 +44,6 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        mConductorDesignado.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent conductorActivity = new Intent(getApplication(), conductor_activity.class);
-                startActivity(conductorActivity);
-            }
-        });
-
         mPedirPatagonia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -63,7 +55,16 @@ public class MainActivity extends AppCompatActivity
         mJugarGanar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent triviaPatagoniaActivity = new Intent(getApplication(), TriviaPatagoniaActivity.class);
+                startActivity(triviaPatagoniaActivity);
+            }
+        });
 
+        mComunidad.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent comunidadActivity = new Intent(getApplication(), ComunidadActivity.class);
+                startActivity(comunidadActivity);
             }
         });
     }

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/advice4"/>
+
+    <Button
+        android:id="@+id/answerBtn1"
+        android:text="Obvio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@drawable/other_acc_button_bg2"
+        android:layout_below="@+id/question"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/answerBtn2"
+        android:text="A veces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@drawable/other_acc_button_bg2"
+        android:layout_below="@+id/answerBtn1"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/answerBtn3"
+        android:text="No se me ocurre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@drawable/other_acc_button_bg2"
+        android:layout_below="@+id/answerBtn2"
+        android:layout_marginTop="8dp"/>
+
+</RelativeLayout>

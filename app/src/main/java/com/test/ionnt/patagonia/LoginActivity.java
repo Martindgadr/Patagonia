@@ -20,6 +20,7 @@ import butterknife.ButterKnife;
 
 public class LoginActivity extends AppCompatActivity {
     @BindView(R.id.otherAccButton) Button mOtherAccButton;
+    @BindView(R.id.fbLoginButton) Button mFacebookLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +55,14 @@ public class LoginActivity extends AppCompatActivity {
                 Intent showMainActivity = new Intent(getApplication(), MainActivity.class);
                 startActivity(showMainActivity);
                 finishAffinity();
+            }
+        });
+
+        mFacebookLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent showFacebookPopupActivity = new Intent(getApplication(), FacebookPopupActivity.class);
+                startActivity(showFacebookPopupActivity);
             }
         });
     }
